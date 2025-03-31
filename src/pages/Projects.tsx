@@ -157,69 +157,96 @@ const ProjectsPage = () => {
               </ul>
               
               <h3 className="section-subtitle">Implemented Activities</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                <div className="h-48 rounded-lg overflow-hidden">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/c744eaa3-b691-47a2-aa5f-9a1417051d7c.png" 
-                    alt="Bridge Rehabilitation - Man showing eroded path" 
-                    className="w-full h-full object-cover"
+                    alt="Old broken bridge" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig1: Old broken bridge</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/a46e7ae0-69d8-4612-b24e-4de14f0c919c.png" 
-                    alt="Bridge Rehabilitation - Construction materials and workers" 
-                    className="w-full h-full object-cover"
+                    alt="Cleaning and delivery of work materials" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig2: Cleaning and delivery of work materials</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/ef5067b9-84b1-4f87-9384-7b46ecc5e63e.png" 
-                    alt="Bridge Rehabilitation - Project sign board" 
-                    className="w-full h-full object-cover"
+                    alt="Preparing concrete and other materials" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig3: Preparing concrete & other materials</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/548d00ff-5984-4922-8537-53b2a0b5272d.png" 
-                    alt="Bridge Rehabilitation - Culvert installation" 
-                    className="w-full h-full object-cover"
+                    alt="Work on river floor and positioning of rings" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig4: Work on river floor & positioning of rings</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/e660e61e-16ca-441c-97ed-ac95de3a926b.png" 
-                    alt="Bridge Rehabilitation - Construction of retaining wall" 
-                    className="w-full h-full object-cover"
+                    alt="Work on bridge arms" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig5: Work on bridge arms</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/9d86543f-3769-4950-b948-7dd881b34dee.png" 
-                    alt="Bridge Rehabilitation - Completed culvert" 
-                    className="w-full h-full object-cover"
+                    alt="Cross section view of bridge after filling" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig6: Cross section view of bridge after filling</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/4fa057b8-c97b-460e-8f0e-a5f8ebd82f41.png" 
-                    alt="Bridge Rehabilitation - Improved road path" 
-                    className="w-full h-full object-cover"
+                    alt="Overview after filling" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig7: Overview after filling</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/9357f098-94da-42ea-84c2-f3eea03c740e.png" 
-                    alt="Bridge Rehabilitation - Foundation construction" 
-                    className="w-full h-full object-cover"
+                    alt="Uncompleted arm" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig8: Uncompleted arm</p>
+                  </div>
                 </div>
-                <div className="h-48 rounded-lg overflow-hidden">
+                <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/b382ff7b-f41e-44dc-ab37-ab61e176a8cc.png" 
-                    alt="Bridge Rehabilitation - Prepared road surface" 
-                    className="w-full h-full object-cover"
+                    alt="Overview" 
+                    className="w-full h-48 object-cover"
                   />
+                  <div className="p-3 bg-eco-sage bg-opacity-20 text-center">
+                    <p className="text-sm font-medium">Fig9: Overview</p>
+                  </div>
                 </div>
               </div>
             </div>
