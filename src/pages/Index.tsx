@@ -1,7 +1,7 @@
 
 import Layout from '@/components/Layout';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Tree, Users, BookOpen, Globe } from 'lucide-react';
+import { ArrowRight, Leaf, Users, BookOpen, Globe } from 'lucide-react';
 
 const HomePage = () => {
   return (
@@ -71,7 +71,7 @@ const HomePage = () => {
               <h3 className="section-subtitle">Our Focus Areas</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <Tree className="flex-shrink-0 h-6 w-6 text-eco-green-light mr-3 mt-1" />
+                  <Leaf className="flex-shrink-0 h-6 w-6 text-eco-green-light mr-3 mt-1" />
                   <span>Environmental conservation and restoration</span>
                 </li>
                 <li className="flex items-start">
