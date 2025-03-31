@@ -157,7 +157,7 @@ const ProjectsPage = () => {
               </ul>
               
               <h3 className="section-subtitle">Implemented Activities</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
                 <div className="rounded-lg overflow-hidden shadow-md">
                   <img 
                     src="/lovable-uploads/c744eaa3-b691-47a2-aa5f-9a1417051d7c.png" 
@@ -283,12 +283,81 @@ const ProjectsPage = () => {
                 </li>
               </ul>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {[1, 2, 3, 4, 5, 6, 7].map((index) => (
-                  <div key={index} className="h-40 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                    <p className="text-center px-2">Catchment Project Image {index}</p>
+              <div className="mb-6">
+                <h5 className="font-semibold text-lg text-center mb-4">Photos showing ECO-ph head office and water friendly tree nursery</h5>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/63710fa6-8735-4961-aed5-db1d9b791a0c.png" 
+                      alt="ECO-ph head office" 
+                      className="w-full h-48 object-cover"
+                    />
                   </div>
-                ))}
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/70a2b8e1-b74f-41ee-b793-7fc3ed837dff.png" 
+                      alt="Staff working in tree nursery" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/b1d30be3-7df3-473d-b7c2-299223061bb0.png" 
+                      alt="Child with tree seedling" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                </div>
+                
+                <h5 className="font-semibold text-lg text-center mb-4">Photos showing fire tracing around protected area and catchments</h5>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/c3b2b850-4354-4964-8734-525d15283ee5.png" 
+                      alt="Group working in nursery" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/57f52df4-a3eb-4dc7-870a-2749230be3ca.png" 
+                      alt="Tree seedlings in bags" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/28746119-abb6-4d9a-ba51-a65b49ef00c6.png" 
+                      alt="Project information sign" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                </div>
+                
+                <h5 className="font-semibold text-lg text-center mb-4">Photos showing fire tracing around protected area and catchments</h5>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/16d3cbd6-ec72-4d8e-9016-d8d03845489a.png" 
+                      alt="Fire trace path" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/e9c52745-e0ea-4389-85cf-3005aeadb5b0.png" 
+                      alt="Person maintaining fire trace" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/1f81a3cc-b9fc-4598-9158-6fa387017857.png" 
+                      alt="Fire trace through vegetation" 
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
