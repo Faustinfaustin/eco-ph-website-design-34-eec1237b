@@ -158,11 +158,69 @@ const ProjectsPage = () => {
               
               <h3 className="section-subtitle">Implemented Activities</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                {[1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
-                  <div key={index} className="h-40 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                    <p className="text-center px-2">Bridge Project Image {index}</p>
-                  </div>
-                ))}
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/c744eaa3-b691-47a2-aa5f-9a1417051d7c.png" 
+                    alt="Bridge Rehabilitation - Man showing eroded path" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/a46e7ae0-69d8-4612-b24e-4de14f0c919c.png" 
+                    alt="Bridge Rehabilitation - Construction materials and workers" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/ef5067b9-84b1-4f87-9384-7b46ecc5e63e.png" 
+                    alt="Bridge Rehabilitation - Project sign board" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/548d00ff-5984-4922-8537-53b2a0b5272d.png" 
+                    alt="Bridge Rehabilitation - Culvert installation" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/e660e61e-16ca-441c-97ed-ac95de3a926b.png" 
+                    alt="Bridge Rehabilitation - Construction of retaining wall" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/9d86543f-3769-4950-b948-7dd881b34dee.png" 
+                    alt="Bridge Rehabilitation - Completed culvert" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/4fa057b8-c97b-460e-8f0e-a5f8ebd82f41.png" 
+                    alt="Bridge Rehabilitation - Improved road path" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/9357f098-94da-42ea-84c2-f3eea03c740e.png" 
+                    alt="Bridge Rehabilitation - Foundation construction" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="h-48 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/b382ff7b-f41e-44dc-ab37-ab61e176a8cc.png" 
+                    alt="Bridge Rehabilitation - Prepared road surface" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
