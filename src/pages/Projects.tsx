@@ -49,11 +49,28 @@ const ProjectsPage = () => {
               </ul>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="h-64 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                  <p className="text-center px-4">Plate 1: Number of respondents affiliated to different organizations</p>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/64268c27-c3ca-477f-8744-f79715f13e94.png"
+                    alt="Chart showing number of respondents affiliated to different organizations"
+                    className="w-full h-64 object-contain bg-white"
+                  />
+                  <p className="text-center p-3 bg-eco-sage bg-opacity-20">Plate 1: Number of respondents affiliated to different organizations</p>
                 </div>
-                <div className="h-64 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                  <p className="text-center px-4">Plate 2: Total number of men and women directly involved</p>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <div className="grid grid-cols-2 h-64">
+                    <img 
+                      src="/lovable-uploads/76f10f88-cfc0-47c0-9e1a-13df01b338cc.png"
+                      alt="Road construction equipment"
+                      className="w-full h-full object-cover"
+                    />
+                    <img 
+                      src="/lovable-uploads/1e2fa79b-12a1-4a12-9fe9-dd36da0e6ad7.png"
+                      alt="Lake landscape view"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-center p-3 bg-eco-sage bg-opacity-20">Plate 2: Total number of men and women directly involved</p>
                 </div>
               </div>
             </div>
@@ -132,8 +149,23 @@ const ProjectsPage = () => {
                 </table>
               </div>
               
-              <div className="h-64 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                <p className="text-center px-4">Image placeholder - Mobilization photo</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/c0d17b08-525e-4d26-9f88-9a82c56d8eb0.png"
+                    alt="Group photo with banner about Community-led Landscape Management"
+                    className="w-full h-60 object-cover"
+                  />
+                  <p className="p-3 bg-eco-sage bg-opacity-20 text-center">Community members with COBALAM project banner</p>
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/b79a70e2-ad3d-4d32-bf17-5ade4686d3ce.png"
+                    alt="Indoor training session with participants"
+                    className="w-full h-60 object-cover"
+                  />
+                  <p className="p-3 bg-eco-sage bg-opacity-20 text-center">Community training session</p>
+                </div>
               </div>
             </div>
           </div>
