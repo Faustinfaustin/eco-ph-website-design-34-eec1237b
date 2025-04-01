@@ -386,12 +386,41 @@ const ProjectsPage = () => {
                 <li>Sensitization sessions in primary schools, meeting houses, churches, and other public gatherings</li>
               </ul>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {[1, 2, 3, 4].map((index) => (
-                  <div key={index} className="h-48 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                    <p className="text-center px-2">Education Project Image {index}</p>
+              <div className="mb-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/8c9b3d01-86c0-413b-9f44-4b2cf7377822.png" 
+                      alt="Community gathering for capacity building" 
+                      className="w-full h-60 object-cover"
+                    />
                   </div>
-                ))}
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/85ce4edf-0332-4030-a815-ebfcd546d75e.png" 
+                      alt="Indoor awareness session" 
+                      className="w-full h-60 object-cover"
+                    />
+                  </div>
+                </div>
+                <p className="text-center italic mb-6">Photos showing capacity building on public awareness at Leide and Tchabbal sabga.</p>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/89dcb5cf-b3a2-47b7-8a63-6281fd99d03f.png" 
+                      alt="Community members gathered outside" 
+                      className="w-full h-60 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-lg overflow-hidden shadow-md">
+                    <img 
+                      src="/lovable-uploads/44773485-934e-4c83-a090-141377eb05b1.png" 
+                      alt="Field visit to conservation area" 
+                      className="w-full h-60 object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
