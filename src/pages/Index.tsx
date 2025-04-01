@@ -104,8 +104,12 @@ const HomePage = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
-              <div className="h-48 bg-eco-green-dark flex items-center justify-center text-white">
-                <p className="text-center px-4">Image placeholder - COBALAM Project</p>
+              <div className="h-48 bg-eco-green-dark overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b24f2d37-c3b4-473e-8938-0af41b3ced6c.png" 
+                  alt="Community-led Landscape Management Project" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-eco-green">Community-led Landscape Management</h3>
@@ -123,8 +127,12 @@ const HomePage = () => {
             </div>
             
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
-              <div className="h-48 bg-eco-green-dark flex items-center justify-center text-white">
-                <p className="text-center px-4">Image placeholder - Bridge Rehabilitation</p>
+              <div className="h-48 bg-eco-green-dark overflow-hidden">
+                <img 
+                  src="/lovable-uploads/5221a34f-959e-4869-95da-a1874aaf6577.png" 
+                  alt="Bridge Rehabilitation Project" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-eco-green">Bridge Rehabilitation Project</h3>
@@ -142,8 +150,12 @@ const HomePage = () => {
             </div>
             
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
-              <div className="h-48 bg-eco-green-dark flex items-center justify-center text-white">
-                <p className="text-center px-4">Image placeholder - Catchment Protection</p>
+              <div className="h-48 bg-eco-green-dark overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b2067f20-5d07-4a9c-bc3d-71a7232a9c56.png" 
+                  alt="Catchment Protection & Reforestation" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-eco-green">Catchment Protection & Reforestation</h3>

@@ -11,9 +11,21 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">ECO-ph</h3>
+            <div className="mb-4 flex justify-start">
+              <img 
+                src="/lovable-uploads/12d40d8e-5088-45f6-9e81-28949b052cad.png"
+                alt="ECO-ph Logo"
+                className="h-24 bg-white p-1 rounded"
+              />
+            </div>
             <p className="mb-4">
-              Environment Conservation for Public Health (ECO-ph) is a Cameroonian non-governmental civil society organization dedicated to promoting sustainable environmental practices and community development.
+              ENVIRONMENT CONSERVATION ASSOCIATION For Public Health (ECO-ph)
             </p>
+            <div className="mb-4">
+              <p>P. O. Box</p>
+              <p>Tel: (00237) 78 00 35 85</p>
+              <p>E-Mail: ecp.environment@gmail.com</p>
+            </div>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-eco-green-light transition-colors">
                 <Facebook size={20} />
@@ -67,14 +79,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={18} />
-                <a href="mailto:info@eco-ph.org" className="hover:text-eco-green-light transition-colors">
-                  info@eco-ph.org
+                <a href="mailto:ecp.environment@gmail.com" className="hover:text-eco-green-light transition-colors">
+                  ecp.environment@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={18} />
-                <a href="tel:+237000000000" className="hover:text-eco-green-light transition-colors">
-                  +237 00 00 00 000
+                <a href="tel:+23778003585" className="hover:text-eco-green-light transition-colors">
+                  +237 78 00 35 85
                 </a>
               </li>
             </ul>
@@ -82,7 +94,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
-          <p>&copy; {currentYear} Environment Conservation for Public Health (ECO-ph). All rights reserved.</p>
+          <p>&copy; {currentYear} Environment Conservation Association for Public Health (ECO-ph). All rights reserved.</p>
         </div>
       </div>
     </footer>
