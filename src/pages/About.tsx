@@ -59,8 +59,12 @@ const AboutPage = () => {
                   <span>Climate change mitigation and adaptation</span>
                 </li>
               </ul>
-              <div className="h-48 bg-eco-green-dark rounded-lg flex items-center justify-center text-white">
-                <p className="text-center px-4">Image placeholder - Our Work</p>
+              <div className="h-48 bg-eco-green-dark rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/d3ff4332-a084-4219-ac78-938d5a8a909f.png" 
+                  alt="Community-led Forest management" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -76,8 +80,12 @@ const AboutPage = () => {
               <p className="mb-4">
                 A Cameroon where communities live in harmony with nature, protecting biodiversity while improving livelihoods through sustainable practices.
               </p>
-              <div className="h-48 bg-eco-green-dark rounded-lg flex items-center justify-center text-white mt-6">
-                <p className="text-center px-4">Image placeholder - Vision</p>
+              <div className="h-48 bg-eco-green-dark rounded-lg overflow-hidden mt-6">
+                <img 
+                  src="/lovable-uploads/b16f9cb6-8f0e-4c9a-a7dc-f4f82eba770a.png" 
+                  alt="Vision - Child with plant" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             
@@ -86,8 +94,12 @@ const AboutPage = () => {
               <p className="mb-4">
                 To enhance and enable environmental protection and natural resource conservation to promote a sustainable future and socio-economic enhancement of local communities within Tubah municipality and Cameroon as a whole.
               </p>
-              <div className="h-48 bg-eco-green-dark rounded-lg flex items-center justify-center text-white mt-6">
-                <p className="text-center px-4">Image placeholder - Mission</p>
+              <div className="h-48 bg-eco-green-dark rounded-lg overflow-hidden mt-6">
+                <img 
+                  src="/lovable-uploads/f8c42a1d-b1ba-44eb-b910-89f3bdaef370.png" 
+                  alt="Mission - Community meeting" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
