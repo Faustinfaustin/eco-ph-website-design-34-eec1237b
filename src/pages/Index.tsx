@@ -10,7 +10,7 @@ const HomePage = () => {
       <section 
         className="relative h-[80vh] flex items-center"
         style={{
-          backgroundImage: "url('/lovable-uploads/90149dfe-0db2-4dba-8986-0fdf880a7693.png')",
+          backgroundImage: "url('/lovable-uploads/bac.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
