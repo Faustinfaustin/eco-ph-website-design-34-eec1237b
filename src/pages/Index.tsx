@@ -1,4 +1,3 @@
-
 import Layout from '@/components/Layout';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Leaf, Users, BookOpen, Globe } from 'lucide-react';
@@ -10,12 +9,11 @@ const HomePage = () => {
       <section 
         className="relative h-[80vh] flex items-center"
         style={{
-          backgroundImage: "url('/lovable-uploads/2f3a0835-1aa7-43a6-8123-90b49b332231.png')",
+          backgroundImage: "url('/lovable-uploads/0e375eb1-855a-48f4-aa49-42c27eca41fc.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-white">
           <div className="max-w-3xl animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">

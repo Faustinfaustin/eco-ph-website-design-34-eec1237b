@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Heart } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +30,9 @@ const Header = () => {
             </Link>
             <Link to="/contact" className="text-eco-green hover:text-eco-green-light transition-colors">
               Contact
+            </Link>
+            <Link to="/donate" className="flex items-center text-eco-green hover:text-eco-green-light transition-colors">
+              <Heart size={18} className="mr-1" /> Donate
             </Link>
           </nav>
 
@@ -81,6 +84,13 @@ const Header = () => {
               onClick={() => setIsOpen(false)}
             >
               Contact
+            </Link>
+            <Link
+              to="/donate"
+              className="flex items-center text-eco-green hover:text-eco-green-light transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              <Heart size={18} className="mr-1" /> Donate
             </Link>
           </div>
         </div>

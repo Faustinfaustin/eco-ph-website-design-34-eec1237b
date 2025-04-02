@@ -62,8 +62,8 @@ const ContactPage = () => {
                   <Mail className="w-6 h-6 text-eco-green-light mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-lg">Email</h3>
-                    <a href="mailto:info@eco-ph.org" className="hover:text-eco-green-light transition-colors">
-                      info@eco-ph.org
+                    <a href="mailto:ecp.environment@gmail.com" className="hover:text-eco-green-light transition-colors">
+                      ecp.environment@gmail.com
                     </a>
                   </div>
                 </div>
@@ -72,8 +72,8 @@ const ContactPage = () => {
                   <Phone className="w-6 h-6 text-eco-green-light mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-lg">Phone</h3>
-                    <a href="tel:+237000000000" className="hover:text-eco-green-light transition-colors">
-                      +237 00 00 00 000
+                    <a href="tel:+23778003585" className="hover:text-eco-green-light transition-colors">
+                      +237 78 00 35 85
                     </a>
                   </div>
                 </div>
