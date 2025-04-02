@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
@@ -27,7 +26,7 @@ const Footer = () => {
               <p>E-Mail: ecp.environment@gmail.com</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-eco-green-light transition-colors">
+              <a href="https://www.facebook.com/ecophcm/" target="_blank" rel="noopener noreferrer" className="hover:text-eco-green-light transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" className="hover:text-eco-green-light transition-colors">

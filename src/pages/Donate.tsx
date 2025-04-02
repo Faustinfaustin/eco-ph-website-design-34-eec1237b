@@ -2,6 +2,7 @@
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Heart } from 'lucide-react';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 const DonatePage = () => {
   return (
@@ -26,6 +27,58 @@ const DonatePage = () => {
             
             <div className="bg-white p-8 rounded-lg shadow-lg mb-12">
               <h3 className="text-2xl font-bold text-eco-green mb-6">Donation Options</h3>
+              
+              {/* Mobile Money Options */}
+              <div className="mb-8">
+                <h4 className="text-xl font-semibold mb-4">Mobile Money Payment Options</h4>
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Payment Method</TableHead>
+                      <TableHead>Phone Number</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell className="font-medium">MTN Mobile Money</TableCell>
+                      <TableCell>678 00 35 85</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Orange Money</TableCell>
+                      <TableCell>78 00 35 85</TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </div>
+              
+              {/* Bank Transfer Options */}
+              <div className="mb-8">
+                <h4 className="text-xl font-semibold mb-4">Bank Transfer Details</h4>
+                <Table>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell className="font-medium">Account Number:</TableCell>
+                      <TableCell>0400400011657</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Account Name:</TableCell>
+                      <TableCell>ECO-ph</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Bank Name:</TableCell>
+                      <TableCell>United Bank For Africa (UBA) Cameroon PLC</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Bank Address:</TableCell>
+                      <TableCell>ecp.environment@gmail.com</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Bank Country:</TableCell>
+                      <TableCell>Cameroon</TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <Button size="lg" className="bg-eco-green-light hover:bg-eco-green-dark">

@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Heart } from 'lucide-react';
@@ -10,8 +9,12 @@ const Header = () => {
     <header className="w-full bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-eco-green">ECO-ph</span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/c6244325-ddec-4d79-916d-be9c642f07eb.png"
+              alt="ECO-ph Logo"
+              className="h-10"
+            />
           </Link>
 
           {/* Desktop Navigation */}
