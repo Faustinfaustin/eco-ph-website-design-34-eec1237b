@@ -92,23 +92,6 @@ const DonatePage = () => {
                 </Button>
               </div>
               
-              <div className="mb-8">
-                <label htmlFor="custom-amount" className="block text-sm font-medium text-gray-700 mb-1">
-                  Custom Amount
-                </label>
-                <div className="flex">
-                  <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500">
-                    $
-                  </span>
-                  <input
-                    type="number"
-                    id="custom-amount"
-                    className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md border border-gray-300 focus:ring-eco-green focus:border-eco-green"
-                    placeholder="Enter amount"
-                  />
-                </div>
-              </div>
-              
               <Button size="lg" className="w-full bg-eco-green hover:bg-eco-green-dark">
                 Donate Now
               </Button>

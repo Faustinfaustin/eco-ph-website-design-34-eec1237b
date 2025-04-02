@@ -83,7 +83,9 @@ const ContactPage = () => {
                 <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://www.facebook.com/ecophcm/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
                     className="bg-eco-green text-white hover:bg-eco-green-light w-10 h-10 rounded-full flex items-center justify-center transition-colors"
                   >
                     <Facebook size={18} />
@@ -188,13 +190,15 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Map Section - Placeholder */}
+      {/* Map Section */}
       <section className="py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-eco-green-dark rounded-lg h-[400px] flex items-center justify-center text-white">
-            <p className="text-center text-lg">
-              Map placeholder - This would be replaced with an actual Google Maps or other mapping service.
-            </p>
+          <div className="rounded-lg h-[400px] overflow-hidden">
+            <img 
+              src="/lovable-uploads/047491c7-b5bc-4e76-bab4-bc5cffef3cc2.png"
+              alt="Map of Bambui village, North West Region, Cameroon"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
