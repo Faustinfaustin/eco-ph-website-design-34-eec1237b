@@ -489,63 +489,66 @@ const ProjectsPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Our Recent Projects in Bambui Village</h2>
-            {/* Tree Nursery Farm Project */}
+            {/* 1.1.3. Tree nursery farm setup */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
-              <h3 className="section-subtitle mb-2">1. Set up and management of a tree nursery farm</h3>
-              <p className="text-lg font-semibold mb-1">COBALAM_NWR_Tubah_Bbui_N1_2023, Bambui village</p>
-              <p className="mb-3">
-                <span className="font-semibold underline">Output:</span> Set up a community-based tree nursery farm and produce 29,500 seedlings of eleven indigenous tree species (2023-2024)
-              </p>
-              <p className="mb-3">
-                <span className="font-semibold underline">Objective:</span> Facilitate the set up and management of a tree nursery farm for the production of seedlings to be planted in degraded areas of identified sacred forests, restoring 215 ha of Sacred Forests & 340 ha of Water catchments.
-              </p>
+              <h3 className="section-subtitle mb-2">
+                1.1.3 Facilitate the set up and management of a tree nursery farm (COBALAM_NWR_Tubah_Bbui_N1_2023) in Bambui village for the reforestation of degraded areas of identified sacred forests with the participation of traditional authorities in Bambui Fondom
+              </h3>
+              <p className="mb-2"><span className="font-semibold underline">Output:</span> set up a community-based tree nursery farm and produce 29,500 seedlings of eleven indigenous tree species (2023-2024)</p>
+              <p className="mb-3"><span className="font-semibold underline">Objective:</span> The general objective of the project was to facilitate the set up and management of a tree nursery farm for the production of tree seedlings. The seedlings shall be planted in degraded areas of identified Sacred forests as implementation of key conservation measure for the restoration of 215 ha of degraded areas of Sacred Forests and 340 ha of degraded areas of Water catchments in Bambui Village, Tubah Municipality in the North West Region of Cameroon.</p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
-                {projectImages1.map((img, i) => (
-                  <img key={i} src={img} alt={`tree nursery ${i + 1}`} className="w-full h-48 object-cover rounded-lg shadow" />
-                ))}
+                <img src="/lovable-uploads/0388e16a-19b2-41f6-8fd2-7605de2df561.png" alt="tree nursery 1" className="w-full h-48 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/16f6e220-1767-4ccf-9455-d2e1b29028c7.png" alt="tree nursery 2" className="w-full h-48 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/1453deff-7127-4bea-b258-2af247150959.png" alt="tree nursery 3" className="w-full h-48 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/8d9c2dff-15e2-41af-bfc3-c432f869af6c.png" alt="tree nursery 4" className="w-full h-48 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/211832c8-a33a-44cd-962b-628b31a2c30f.png" alt="tree nursery 5" className="w-full h-48 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/4879adb1-b589-46e5-99df-dbe69002162d.png" alt="tree nursery 6" className="w-full h-48 object-cover rounded-lg shadow" />
               </div>
             </div>
-            {/* Restoration of Sacred Forests */}
+            {/* 1.1.4. Restoration of degraded areas */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
-              <h3 className="section-subtitle mb-2">2. Restoration of degraded areas of sacred forests and water catchments</h3>
-              <p className="mb-3">
-                <span className="font-semibold underline">Output:</span> Improving the conservation and management of 245ha of sacred forests and water catchments.
-              </p>
-              <p className="mb-3">
-                <span className="font-semibold underline">Activity:</span> Planting and monitoring 29,376 tree seedlings in 5 sacred forests and 3 water catchments (245 ha, Bambui village).
-              </p>
+              <h3 className="section-subtitle mb-2">
+                1.1.4 Restoration of degraded areas of identified sacred forests and water catchments in Bambui village
+              </h3>
+              <p className="mb-2"><span className="font-semibold underline">Output:</span> Improving the conservation and sustainable management of 245ha of sacred forests and water catchments in Bambui Fondom </p>
+              <p className="mb-3"><span className="font-semibold underline">Activity:</span> Accompany the local community in planting and monitoring of 29,376 tree seedlings in degraded areas of 5 identified sacred forests, and 3 water catchments to restore 245 ha in Bambui village - Tubah municipality</p>
               <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mt-6">
-                {projectImages2.map((img, i) => (
-                  <img key={i} src={img} alt={`sacred forest ${i + 1}`} className="w-full h-44 object-cover rounded-lg shadow" />
-                ))}
+                <img src="/lovable-uploads/633e2f21-f48b-414c-adff-1925276a7b69.png" alt="sacred forest 1" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/15eb46d5-2acc-48b6-aa9f-f91562c3fc07.png" alt="sacred forest 2" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/8ac100c1-f520-490b-a8cb-d7f0e726b7fe.png" alt="sacred forest 3" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/e20dfadd-8a2f-4c1e-9c78-9cf949a13208.png" alt="sacred forest 4" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/e4336498-49ac-4f2f-b1cf-7768a3441d96.png" alt="sacred forest 5" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/7ff57949-6cf2-4487-a52a-1b906b3e0916.png" alt="sacred forest 6" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/18fa9a5e-d590-4642-ada9-8a97cc49652f.png" alt="sacred forest 7" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/08f9edf8-9817-4f22-8c06-23c28f0668c8.png" alt="sacred forest 8" className="w-full h-44 object-cover rounded-lg shadow" />
               </div>
             </div>
-            {/* Geo mapping of Sacred Forests */}
+            {/* 1.1.5. Geo mapping of Sacred Forests */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
-              <h3 className="section-subtitle mb-2">3. Geo mapping of Sacred Forests and water catchments</h3>
+              <h3 className="section-subtitle mb-2">1.1.5 Geo mapping of Sacred Forests and water catchments</h3>
               <p className="mb-2 font-medium underline">Objectives:</p>
               <ul className="list-disc pl-6 mb-2">
-                <li>To create accurate maps of sacred forests</li>
-                <li>To identify and document features: water sources, trails, and sacred sites</li>
-                <li>To provide valuable tools for conservation/management</li>
+                <li>To create accurate maps of the sacred forests</li>
+                <li>To identify and document key features, including water sources, trails, and sacred sites</li>
+                <li>To provide a valuable tool for conservation and management efforts</li>
               </ul>
               <p className="mb-2 font-medium underline">Methodology:</p>
               <ul className="list-disc pl-6 mb-2">
-                <li>Group discussions, sketching at Fons palace</li>
-                <li>Field Data Collection: Surveyors/local guides, GPS & mobile apps</li>
-                <li>Remote Sensing: Satellite imagery/aerial photos</li>
-                <li>GIS Data Processing for detailed mapping</li>
+                <li>Group discussions and sketching of mental maps at the Fons palace</li>
+                <li>Field Data Collection: A team of surveyors and local guides conducted field data collection using GPS devices and mobile apps.</li>
+                <li>Remote Sensing: Satellite imagery and aerial photographs were analysed to supplement field data and provide additional context.</li>
+                <li>Data Processing: Collected data was processed using Geographic Information System (GIS) software to create a detailed map.</li>
               </ul>
               <p className="mb-1"><span className="font-semibold underline">Key Findings:</span></p>
               <ul className="list-disc pl-6">
-                <li>Four sacred forests mapped (~106.1 ha)</li>
-                <li>22 water sources, 9 sacred sites identified</li>
-                <li>Highlighted conservation areas with rare plant habitats</li>
+                <li>Sacred Forest Boundaries: The mapping exercise revealed that the four sacred forests mapped cover an area of approximately 106.1 hectares. </li>
+                <li>Key Features: The maps identified several key features, including 22 water sources, and 9 sacred sites.</li>
+                <li>Conservation Status: The mapping exercise highlighted areas of high conservation value, including rare plant species and habitats.</li>
               </ul>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-                <img src="/lovable-uploads/0388e16a-19b2-41f6-8fd2-7605de2df561.png" alt="Sacred Forest Munkou Watershed" className="w-full h-56 object-cover rounded" />
-                <img src="/lovable-uploads/18fa9a5e-d590-4642-ada9-8a97cc49652f.png" alt="Atunui Sacred Forest and Water Catchment" className="w-full h-56 object-cover rounded" />
-                <img src="/lovable-uploads/8ac100c1-f520-490b-a8cb-d7f0e726b7fe.png" alt="Fegho Sacred Forest Ntafima Quarter" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/5a9fccd2-a2e4-4b4c-839f-e8a59154a7fd.png" alt="Sacred Forest Munkou Watershed" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/a6ac3cdb-ff2d-4175-aefb-25c5aa75a117.png" alt="Atunui Sacred Forest and Water Catchment" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/05185ff0-edd3-44a0-97bd-ce54809fa42a.png" alt="Fegho Sacred Forest Ntafensa Quarter" className="w-full h-56 object-cover rounded" />
               </div>
             </div>
           </div>
