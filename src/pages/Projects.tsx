@@ -513,14 +513,14 @@ const ProjectsPage = () => {
               <p className="mb-2"><span className="font-semibold underline">Output:</span> Improving the conservation and sustainable management of 245ha of sacred forests and water catchments in Bambui Fondom </p>
               <p className="mb-3"><span className="font-semibold underline">Activity:</span> Accompany the local community in planting and monitoring of 29,376 tree seedlings in degraded areas of 5 identified sacred forests, and 3 water catchments to restore 245 ha in Bambui village - Tubah municipality</p>
               <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mt-6">
-                <img src="/lovable-uploads/633e2f21-f48b-414c-adff-1925276a7b69.png" alt="sacred forest 1" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/15eb46d5-2acc-48b6-aa9f-f91562c3fc07.png" alt="sacred forest 2" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/8ac100c1-f520-490b-a8cb-d7f0e726b7fe.png" alt="sacred forest 3" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/e20dfadd-8a2f-4c1e-9c78-9cf949a13208.png" alt="sacred forest 4" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/e4336498-49ac-4f2f-b1cf-7768a3441d96.png" alt="sacred forest 5" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/7ff57949-6cf2-4487-a52a-1b906b3e0916.png" alt="sacred forest 6" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/18fa9a5e-d590-4642-ada9-8a97cc49652f.png" alt="sacred forest 7" className="w-full h-44 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/08f9edf8-9817-4f22-8c06-23c28f0668c8.png" alt="sacred forest 8" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/85074765-29e1-41bb-b51a-da4b396c1939.png" alt="Restoration activity 1" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/44c2b300-0139-497d-ba80-af26404b29f4.png" alt="Restoration activity 2" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/797125fe-3dd6-4331-b774-52a56b2ad4c2.png" alt="Restoration activity 3" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/0ac9c42a-e927-4b7c-87b5-6d51360fe48b.png" alt="Restoration activity 4" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/20575d55-adfe-4dd2-a943-a69aae72724b.png" alt="Restoration activity 5" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/3e7e85af-2ccf-412e-a8a4-ce086e05cf4c.png" alt="Restoration activity 6" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/a3512b28-8c22-4780-b8a4-6a71ae0a5f45.png" alt="Restoration activity 7" className="w-full h-44 object-cover rounded-lg shadow" />
+                <img src="/lovable-uploads/81d00d19-de6f-4c85-b62d-ae7afc15e8d4.png" alt="Restoration activity 8" className="w-full h-44 object-cover rounded-lg shadow" />
               </div>
             </div>
             {/* 1.1.5. Geo mapping of Sacred Forests */}
@@ -546,9 +546,9 @@ const ProjectsPage = () => {
                 <li>Conservation Status: The mapping exercise highlighted areas of high conservation value, including rare plant species and habitats.</li>
               </ul>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-                <img src="/lovable-uploads/5a9fccd2-a2e4-4b4c-839f-e8a59154a7fd.png" alt="Sacred Forest Munkou Watershed" className="w-full h-56 object-cover rounded" />
-                <img src="/lovable-uploads/a6ac3cdb-ff2d-4175-aefb-25c5aa75a117.png" alt="Atunui Sacred Forest and Water Catchment" className="w-full h-56 object-cover rounded" />
-                <img src="/lovable-uploads/05185ff0-edd3-44a0-97bd-ce54809fa42a.png" alt="Fegho Sacred Forest Ntafensa Quarter" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/85074765-29e1-41bb-b51a-da4b396c1939.png" alt="Geo mapping 1" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/44c2b300-0139-497d-ba80-af26404b29f4.png" alt="Geo mapping 2" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/797125fe-3dd6-4331-b774-52a56b2ad4c2.png" alt="Geo mapping 3" className="w-full h-56 object-cover rounded" />
               </div>
             </div>
           </div>
