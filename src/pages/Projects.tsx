@@ -1,5 +1,30 @@
-
 import Layout from '@/components/Layout';
+
+const projectImages1 = [
+  '/lovable-uploads/0388e16a-19b2-41f6-8fd2-7605de2df561.png',
+  '/lovable-uploads/16f6e220-1767-4ccf-9455-d2e1b29028c7.png',
+  '/lovable-uploads/1453deff-7127-4bea-b258-2af247150959.png',
+  '/lovable-uploads/8d9c2dff-15e2-41af-bfc3-c432f869af6c.png',
+  '/lovable-uploads/211832c8-a33a-44cd-962b-628b31a2c30f.png',
+  '/lovable-uploads/4879adb1-b589-46e5-99df-dbe69002162d.png',
+];
+
+const projectImages2 = [
+  '/lovable-uploads/633e2f21-f48b-414c-adff-1925276a7b69.png',
+  '/lovable-uploads/15eb46d5-2acc-48b6-aa9f-f91562c3fc07.png',
+  '/lovable-uploads/8ac100c1-f520-490b-a8cb-d7f0e726b7fe.png',
+  '/lovable-uploads/e20dfadd-8a2f-4c1e-9c78-9cf949a13208.png',
+  '/lovable-uploads/e4336498-49ac-4f2f-b1cf-7768a3441d96.png',
+  '/lovable-uploads/7ff57949-6cf2-4487-a52a-1b906b3e0916.png',
+  '/lovable-uploads/18fa9a5e-d590-4642-ada9-8a97cc49652f.png',
+  '/lovable-uploads/08f9edf8-9817-4f22-8c06-23c28f0668c8.png',
+];
+
+const projectImages3 = [
+  '/lovable-uploads/7d5e6051-b44c-4108-8fc7-1b851c85e971.png',
+  '/lovable-uploads/4e677f1d-1cb0-446f-8dda-8d05935bce1b.png',
+  '/lovable-uploads/f6578ba1-f7a9-4bb7-a9b1-c9fb4c67febc.png',
+];
 
 const ProjectsPage = () => {
   return (
@@ -455,6 +480,135 @@ const ProjectsPage = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Recent Projects in Bambui Village */}
+      <section className="py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="section-title">Our Recent Projects in Bambui Village</h2>
+            {/* Tree Nursery Farm Project */}
+            <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
+              <h3 className="section-subtitle mb-2">1. Set up and management of a tree nursery farm</h3>
+              <p className="text-lg font-semibold mb-1">COBALAM_NWR_Tubah_Bbui_N1_2023, Bambui village</p>
+              <p className="mb-3">
+                <span className="font-semibold underline">Output:</span> Set up a community-based tree nursery farm and produce 29,500 seedlings of eleven indigenous tree species (2023-2024)
+              </p>
+              <p className="mb-3">
+                <span className="font-semibold underline">Objective:</span> Facilitate the set up and management of a tree nursery farm for the production of seedlings to be planted in degraded areas of identified sacred forests, restoring 215 ha of Sacred Forests & 340 ha of Water catchments.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+                {projectImages1.map((img, i) => (
+                  <img key={i} src={img} alt={`tree nursery ${i + 1}`} className="w-full h-48 object-cover rounded-lg shadow" />
+                ))}
+              </div>
+            </div>
+            {/* Restoration of Sacred Forests */}
+            <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
+              <h3 className="section-subtitle mb-2">2. Restoration of degraded areas of sacred forests and water catchments</h3>
+              <p className="mb-3">
+                <span className="font-semibold underline">Output:</span> Improving the conservation and management of 245ha of sacred forests and water catchments.
+              </p>
+              <p className="mb-3">
+                <span className="font-semibold underline">Activity:</span> Planting and monitoring 29,376 tree seedlings in 5 sacred forests and 3 water catchments (245 ha, Bambui village).
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mt-6">
+                {projectImages2.map((img, i) => (
+                  <img key={i} src={img} alt={`sacred forest ${i + 1}`} className="w-full h-44 object-cover rounded-lg shadow" />
+                ))}
+              </div>
+            </div>
+            {/* Geo mapping of Sacred Forests */}
+            <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
+              <h3 className="section-subtitle mb-2">3. Geo mapping of Sacred Forests and water catchments</h3>
+              <p className="mb-2 font-medium underline">Objectives:</p>
+              <ul className="list-disc pl-6 mb-2">
+                <li>To create accurate maps of sacred forests</li>
+                <li>To identify and document features: water sources, trails, and sacred sites</li>
+                <li>To provide valuable tools for conservation/management</li>
+              </ul>
+              <p className="mb-2 font-medium underline">Methodology:</p>
+              <ul className="list-disc pl-6 mb-2">
+                <li>Group discussions, sketching at Fons palace</li>
+                <li>Field Data Collection: Surveyors/local guides, GPS & mobile apps</li>
+                <li>Remote Sensing: Satellite imagery/aerial photos</li>
+                <li>GIS Data Processing for detailed mapping</li>
+              </ul>
+              <p className="mb-1"><span className="font-semibold underline">Key Findings:</span></p>
+              <ul className="list-disc pl-6">
+                <li>Four sacred forests mapped (~106.1 ha)</li>
+                <li>22 water sources, 9 sacred sites identified</li>
+                <li>Highlighted conservation areas with rare plant habitats</li>
+              </ul>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                <img src="/lovable-uploads/0388e16a-19b2-41f6-8fd2-7605de2df561.png" alt="Sacred Forest Munkou Watershed" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/18fa9a5e-d590-4642-ada9-8a97cc49652f.png" alt="Atunui Sacred Forest and Water Catchment" className="w-full h-56 object-cover rounded" />
+                <img src="/lovable-uploads/8ac100c1-f520-490b-a8cb-d7f0e726b7fe.png" alt="Fegho Sacred Forest Ntafima Quarter" className="w-full h-56 object-cover rounded" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Partners Section */}
+      <section className="py-10 bg-eco-sage border-t mt-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="section-title mb-6">Our Partners</h2>
+          <div className="flex flex-wrap justify-center gap-8">
+            <a
+              href="https://www.unep.org/gef/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              title="GEF"
+            >
+              <img
+                src="/lovable-uploads/1453deff-7127-4bea-b258-2af247150959.png"
+                alt="GEF"
+                className="h-20 w-auto mx-auto transition-transform hover:scale-110 drop-shadow-xl"
+              />
+            </a>
+            <a
+              href="https://www.rainforest-alliance.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              title="Rainforest Alliance"
+            >
+              <img
+                src="/lovable-uploads/211832c8-a33a-44cd-962b-628b31a2c30f.png"
+                alt="Rainforest Alliance"
+                className="h-20 w-auto mx-auto transition-transform hover:scale-110 drop-shadow-xl"
+              />
+            </a>
+            <a
+              href="https://www.unep.org/node"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              title="UN Environment Programme"
+            >
+              <img
+                src="/lovable-uploads/4879adb1-b589-46e5-99df-dbe69002162d.png"
+                alt="UN Environment Programme"
+                className="h-20 w-auto mx-auto transition-transform hover:scale-110 drop-shadow-xl"
+              />
+            </a>
+            <a
+              href="https://minepded.gov.cm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              title="MINEPDED"
+            >
+              <img
+                src="/lovable-uploads/16f6e220-1767-4ccf-9455-d2e1b29028c7.png"
+                alt="MINEPDED"
+                className="h-20 w-auto mx-auto transition-transform hover:scale-110 drop-shadow-xl"
+              />
+            </a>
           </div>
         </div>
       </section>
