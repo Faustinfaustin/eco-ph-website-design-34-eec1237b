@@ -123,14 +123,54 @@ const AboutPage = () => {
             <div className="bg-eco-sage p-8 rounded-lg shadow-lg">
               <h3 className="section-subtitle mb-6">Our Partners</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-                  <div 
-                    key={item}
-                    className="h-24 bg-white rounded-lg flex items-center justify-center border border-gray-200"
-                  >
-                    <p className="text-center text-gray-500">Partner Logo</p>
-                  </div>
-                ))}
+                <a 
+                  href="https://www.unep.org/gef/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-lg overflow-hidden bg-white p-2 hover:shadow-lg transition"
+                >
+                  <img 
+                    src="/lovable-uploads/ab5e2257-5f97-47fe-b358-052795774db8.png"
+                    alt="GEF Logo"
+                    className="object-contain h-16"
+                  />
+                </a>
+                <a 
+                  href="https://www.rainforest-alliance.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-lg overflow-hidden bg-white p-2 hover:shadow-lg transition"
+                >
+                  <img
+                    src="/lovable-uploads/be2d0198-1b56-4603-b774-ee3f10cc6e7d.png"
+                    alt="Rainforest Alliance Logo"
+                    className="object-contain h-16"
+                  />
+                </a>
+                <a
+                  href="https://www.unep.org/node"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-lg overflow-hidden bg-white p-2 hover:shadow-lg transition"
+                >
+                  <img
+                    src="/lovable-uploads/f1263ce4-9dae-4591-b797-e6e602ba5644.png"
+                    alt="UN Environment Programme Logo"
+                    className="object-contain h-16"
+                  />
+                </a>
+                <a
+                  href="https://minepded.gov.cm/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-lg overflow-hidden bg-white p-2 hover:shadow-lg transition"
+                >
+                  <img
+                    src="/lovable-uploads/4abe85d1-3705-45a1-930a-2b2f4666212e.png"
+                    alt="MINEPDED Logo"
+                    className="object-contain h-16"
+                  />
+                </a>
               </div>
             </div>
           </div>

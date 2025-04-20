@@ -1,4 +1,3 @@
-
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Heart } from 'lucide-react';
@@ -57,24 +56,40 @@ const DonatePage = () => {
                 <Table>
                   <TableBody>
                     <TableRow>
-                      <TableCell className="font-medium">Account Number:</TableCell>
-                      <TableCell>0400400011657</TableCell>
+                      <TableCell className="font-medium">Bank:</TableCell>
+                      <TableCell>SOCIETE GENERALE CAMEROUN (SGC)</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Account Name:</TableCell>
-                      <TableCell>ECO-ph</TableCell>
+                      <TableCell>Ntarinkon Cooperative Credit Union Ltd. MFE</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">Bank Name:</TableCell>
-                      <TableCell>United Bank For Africa (UBA) Cameroon PLC</TableCell>
+                      <TableCell className="font-medium">SWIFT Code:</TableCell>
+                      <TableCell>SGCMCMCX</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">Bank Address:</TableCell>
-                      <TableCell>ecp.environment@gmail.com</TableCell>
+                      <TableCell className="font-medium">Bank Code:</TableCell>
+                      <TableCell>10003</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">Bank Country:</TableCell>
-                      <TableCell>Cameroon</TableCell>
+                      <TableCell className="font-medium">Branch Code:</TableCell>
+                      <TableCell>01600</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Beneficiary Account Number:</TableCell>
+                      <TableCell>16160006492</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Key:</TableCell>
+                      <TableCell>34</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">IBAN:</TableCell>
+                      <TableCell>34</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Currency:</TableCell>
+                      <TableCell>XAF</TableCell>
                     </TableRow>
                   </TableBody>
                 </Table>
