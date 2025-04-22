@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Facebook, WhatsappIcon } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook } from 'lucide-react';
 
 const ContactInfo = () => {
   return (
@@ -34,10 +34,10 @@ const ContactInfo = () => {
             <h3 className="font-semibold text-lg">Phone</h3>
             <div>
               <a href="tel:+237658551999" className="hover:text-eco-green-light transition-colors block">
-                +237 658 55 19 99
+                +237 658 55 19 99 (Orange)
               </a>
               <a href="tel:+23778003585" className="hover:text-eco-green-light transition-colors block">
-                +237 78 00 35 85
+                +237 78 00 35 85 (MTN)
               </a>
             </div>
           </div>
@@ -52,16 +52,29 @@ const ContactInfo = () => {
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-eco-green text-white hover:bg-eco-green-light w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Facebook"
           >
             <Facebook size={18} />
           </a>
           <a 
-            href="https://wa.me/23678003585" 
+            href="https://wa.me/237678003585" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-eco-green text-white hover:bg-eco-green-light w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="WhatsApp"
           >
-            <WhatsappIcon size={18} />
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              stroke="currentColor"
+              strokeWidth="2"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
           </a>
         </div>
       </div>
