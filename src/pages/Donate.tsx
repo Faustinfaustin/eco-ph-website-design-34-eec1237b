@@ -1,5 +1,5 @@
 
-import Layout from '@/components/Layout';
+import Layout from '../components/Layout';
 import { Button } from '@/components/ui/button';
 import { Heart } from 'lucide-react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
@@ -25,8 +25,6 @@ const DonatePage = () => {
               Every donation, no matter the size, brings us one step closer to a sustainable future.
             </p>
             
-           
-              
               {/* Bank Transfer Options */}
               <div className="mb-8">
                 <h4 className="text-xl font-semibold mb-4">Bank Transfer Details</h4>
@@ -72,8 +70,6 @@ const DonatePage = () => {
                 </Table>
               </div>
               
-        
-              
               <Button size="lg" className="w-full bg-eco-green hover:bg-eco-green-dark">
                 Donate Now
               </Button>
@@ -103,4 +99,3 @@ const DonatePage = () => {
 };
 
 export default DonatePage;
-
