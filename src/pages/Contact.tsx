@@ -1,7 +1,6 @@
-
 import Layout from '@/components/Layout';
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Whatsapp } from 'lucide-react';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -72,14 +71,19 @@ const ContactPage = () => {
                   <Phone className="w-6 h-6 text-eco-green-light mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-lg">Phone</h3>
-                    <a href="tel:+23778003585" className="hover:text-eco-green-light transition-colors">
-                      +237 78 00 35 85
-                    </a>
+                    <div>
+                      <a href="tel:+237658551999" className="hover:text-eco-green-light transition-colors block">
+                        +237 658 55 19 99
+                      </a>
+                      <a href="tel:+23778003585" className="hover:text-eco-green-light transition-colors block">
+                        +237 78 00 35 85
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
               
-              <div>
+              <div className="mt-6">
                 <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a 
@@ -91,16 +95,12 @@ const ContactPage = () => {
                     <Facebook size={18} />
                   </a>
                   <a 
-                    href="#" 
+                    href="https://wa.me/23678003585" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
                     className="bg-eco-green text-white hover:bg-eco-green-light w-10 h-10 rounded-full flex items-center justify-center transition-colors"
                   >
-                    <Twitter size={18} />
-                  </a>
-                  <a 
-                    href="#" 
-                    className="bg-eco-green text-white hover:bg-eco-green-light w-10 h-10 rounded-full flex items-center justify-center transition-colors"
-                  >
-                    <Linkedin size={18} />
+                    <Whatsapp size={18} />
                   </a>
                 </div>
               </div>
