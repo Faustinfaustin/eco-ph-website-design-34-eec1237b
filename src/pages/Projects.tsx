@@ -489,19 +489,64 @@ const ProjectsPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Our Recent Projects in Bambui Village</h2>
+            
             {/* 1.1.3. Tree nursery farm setup */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
               <h3 className="section-subtitle mb-2">
                 1.1.3 Facilitate the set up and management of a tree nursery farm (COBALAM_NWR_Tubah_Bbui_N1_2023) in Bambui village for the reforestation of degraded areas of identified sacred forests with the participation of traditional authorities in Bambui Fondom
               </h3>
               <p className="mb-2"><span className="font-semibold underline">Output:</span> set up a community-based tree nursery farm and produce 29,500 seedlings of eleven indigenous tree species (2023-2024)</p>
-              <p className="mb-3"><span className="font-semibold underline">Objective:</span> The general objective of the project was to facilitate the set up and management of a tree nursery farm for the production of tree seedlings. The seedlings shall be planted in degraded areas of identified Sacred forests as implementation of key conservation measure for the restoration of 215 ha of degraded areas of Sacred Forests and 340 ha of degraded areas of Water catchments in Bambui Village, Tubah Municipality in the North West Region of Cameroon.</p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
-                <img 
-                  src="/lovable-uploads/a425ce63-050b-4018-a29c-c0c9586b830b.png" 
-                  alt="Community members at tree nursery" 
-                  className="w-full h-48 object-cover rounded-lg shadow col-span-full" 
-                />
+              <p className="mb-6"><span className="font-semibold underline">Objective:</span> The general objective of the project was to facilitate the set up and management of a tree nursery farm for the production of tree seedlings. The seedlings shall be planted in degraded areas of identified Sacred forests as implementation of key conservation measure for the restoration of 215 ha of degraded areas of Sacred Forests and 340 ha of degraded areas of Water catchments in Bambui Village, Tubah Municipality in the North West Region of Cameroon.</p>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/c4239494-76b3-485c-b0e9-a0ec6e7c6085.png" 
+                    alt="Community members at tree nursery site" 
+                    className="w-full h-48 object-cover"
+                  />
+                  <p className="p-2 bg-eco-sage bg-opacity-20 text-center text-sm">Tree nursery setup with community participation</p>
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/fd93b830-f44e-4289-b2b3-018e8e9b83c8.png" 
+                    alt="Team preparing soil for tree nursery" 
+                    className="w-full h-48 object-cover"
+                  />
+                  <p className="p-2 bg-eco-sage bg-opacity-20 text-center text-sm">Soil preparation and nursery setup</p>
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/c579b7de-3301-4d88-9cbe-633ca769eb46.png" 
+                    alt="Community members observing tree nursery" 
+                    className="w-full h-48 object-cover"
+                  />
+                  <p className="p-2 bg-eco-sage bg-opacity-20 text-center text-sm">Community engagement in nursery management</p>
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/bcb48b0f-7ce7-4c95-88ed-5bb33ee4d318.png" 
+                    alt="Group visiting seedling nursery" 
+                    className="w-full h-48 object-cover"
+                  />
+                  <p className="p-2 bg-eco-sage bg-opacity-20 text-center text-sm">Monitoring seedling growth progress</p>
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/3de5b1f2-4278-4bd5-82c5-d0a22824cade.png" 
+                    alt="Training session on forest management" 
+                    className="w-full h-48 object-cover"
+                  />
+                  <p className="p-2 bg-eco-sage bg-opacity-20 text-center text-sm">Training on sacred forest watershed management</p>
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img 
+                    src="/lovable-uploads/814a2e43-1d6d-4f82-a450-34f83af9c41b.png" 
+                    alt="Community members with project banner" 
+                    className="w-full h-48 object-cover"
+                  />
+                  <p className="p-2 bg-eco-sage bg-opacity-20 text-center text-sm">Community members supporting the COBALAM initiative</p>
+                </div>
               </div>
             </div>
             
