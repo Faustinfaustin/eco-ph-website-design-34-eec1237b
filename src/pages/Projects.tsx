@@ -497,14 +497,14 @@ const ProjectsPage = () => {
               <p className="mb-2"><span className="font-semibold underline">Output:</span> set up a community-based tree nursery farm and produce 29,500 seedlings of eleven indigenous tree species (2023-2024)</p>
               <p className="mb-3"><span className="font-semibold underline">Objective:</span> The general objective of the project was to facilitate the set up and management of a tree nursery farm for the production of tree seedlings. The seedlings shall be planted in degraded areas of identified Sacred forests as implementation of key conservation measure for the restoration of 215 ha of degraded areas of Sacred Forests and 340 ha of degraded areas of Water catchments in Bambui Village, Tubah Municipality in the North West Region of Cameroon.</p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
-                <img src="/lovable-uploads/0388e16a-19b2-41f6-8fd2-7605de2df561.png" alt="tree nursery 1" className="w-full h-48 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/16f6e220-1767-4ccf-9455-d2e1b29028c7.png" alt="tree nursery 2" className="w-full h-48 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/1453deff-7127-4bea-b258-2af247150959.png" alt="tree nursery 3" className="w-full h-48 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/8d9c2dff-15e2-41af-bfc3-c432f869af6c.png" alt="tree nursery 4" className="w-full h-48 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/211832c8-a33a-44cd-962b-628b31a2c30f.png" alt="tree nursery 5" className="w-full h-48 object-cover rounded-lg shadow" />
-                <img src="/lovable-uploads/4879adb1-b589-46e5-99df-dbe69002162d.png" alt="tree nursery 6" className="w-full h-48 object-cover rounded-lg shadow" />
+                <img 
+                  src="/lovable-uploads/a425ce63-050b-4018-a29c-c0c9586b830b.png" 
+                  alt="Community members at tree nursery" 
+                  className="w-full h-48 object-cover rounded-lg shadow col-span-full" 
+                />
               </div>
             </div>
+            
             {/* 1.1.4. Restoration of degraded areas */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
               <h3 className="section-subtitle mb-2">
@@ -523,8 +523,9 @@ const ProjectsPage = () => {
                 <img src="/lovable-uploads/81d00d19-de6f-4c85-b62d-ae7afc15e8d4.png" alt="Restoration activity 8" className="w-full h-44 object-cover rounded-lg shadow" />
               </div>
             </div>
+            
             {/* 1.1.5. Geo mapping of Sacred Forests */}
-            <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
+            <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="section-subtitle mb-2">1.1.5 Geo mapping of Sacred Forests and water catchments</h3>
               <p className="mb-2 font-medium underline">Objectives:</p>
               <ul className="list-disc pl-6 mb-2">
@@ -546,9 +547,21 @@ const ProjectsPage = () => {
                 <li>Conservation Status: The mapping exercise highlighted areas of high conservation value, including rare plant species and habitats.</li>
               </ul>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-                <img src="/lovable-uploads/85074765-29e1-41bb-b51a-da4b396c1939.png" alt="Geo mapping 1" className="w-full h-56 object-cover rounded" />
-                <img src="/lovable-uploads/44c2b300-0139-497d-ba80-af26404b29f4.png" alt="Geo mapping 2" className="w-full h-56 object-cover rounded" />
-                <img src="/lovable-uploads/797125fe-3dd6-4331-b774-52a56b2ad4c2.png" alt="Geo mapping 3" className="w-full h-56 object-cover rounded" />
+                <img 
+                  src="/lovable-uploads/a92f1bad-e506-4e53-a8e6-9c187411e04c.png" 
+                  alt="Sacred Forest Munkou Watershed Map" 
+                  className="w-full h-56 object-contain rounded-lg shadow bg-white" 
+                />
+                <img 
+                  src="/lovable-uploads/1a410f07-0ee8-4728-9a58-36b850e1a792.png" 
+                  alt="Atunui Sacred Forest and Water Catchment Map" 
+                  className="w-full h-56 object-contain rounded-lg shadow bg-white" 
+                />
+                <img 
+                  src="/lovable-uploads/3d6b45a0-8b5f-49b6-a27e-1a8b46cf4733.png" 
+                  alt="Fegho Sacred Forest - Ntafensa Quarter Map" 
+                  className="w-full h-56 object-contain rounded-lg shadow bg-white" 
+                />
               </div>
             </div>
           </div>
