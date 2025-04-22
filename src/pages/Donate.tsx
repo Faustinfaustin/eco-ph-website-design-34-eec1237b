@@ -25,31 +25,7 @@ const DonatePage = () => {
               Every donation, no matter the size, brings us one step closer to a sustainable future.
             </p>
             
-            <div className="bg-white p-8 rounded-lg shadow-lg mb-12">
-              <h3 className="text-2xl font-bold text-eco-green mb-6">Donation Options</h3>
-              
-              {/* Mobile Money Options */}
-              <div className="mb-8">
-                <h4 className="text-xl font-semibold mb-4">Mobile Money Payment Options</h4>
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Payment Method</TableHead>
-                      <TableHead>Phone Number</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium">MTN Mobile Money</TableCell>
-                      <TableCell>678 00 35 85</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Orange Money</TableCell>
-                      <TableCell>78 00 35 85</TableCell>
-                    </TableRow>
-                  </TableBody>
-                </Table>
-              </div>
+           
               
               {/* Bank Transfer Options */}
               <div className="mb-8">
@@ -96,17 +72,7 @@ const DonatePage = () => {
                 </Table>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-                <Button size="lg" className="bg-eco-green-light hover:bg-eco-green-dark">
-                  <Heart className="mr-2" /> $25
-                </Button>
-                <Button size="lg" className="bg-eco-green-light hover:bg-eco-green-dark">
-                  <Heart className="mr-2" /> $50
-                </Button>
-                <Button size="lg" className="bg-eco-green-light hover:bg-eco-green-dark">
-                  <Heart className="mr-2" /> $100
-                </Button>
-              </div>
+        
               
               <Button size="lg" className="w-full bg-eco-green hover:bg-eco-green-dark">
                 Donate Now
