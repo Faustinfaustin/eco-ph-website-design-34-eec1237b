@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Facebook, Whatsapp } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, MessageSquare } from 'lucide-react';
 
 const ContactInfo = () => {
   return (
@@ -61,7 +61,7 @@ const ContactInfo = () => {
             rel="noopener noreferrer" 
             className="bg-eco-green text-white hover:bg-eco-green-light w-10 h-10 rounded-full flex items-center justify-center transition-colors"
           >
-            <Whatsapp size={18} />
+            <MessageSquare size={18} />
           </a>
         </div>
       </div>
