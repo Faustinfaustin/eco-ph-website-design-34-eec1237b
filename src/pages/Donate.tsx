@@ -1,106 +1,93 @@
 
-import Layout from '@/components/Layout';
-import { Button } from '@/components/ui/button';
-import { Heart } from 'lucide-react';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import React from 'react';
+import Layout from '../components/Layout';
+import { Button } from '../components/ui/button';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../components/ui/card';
 
-const DonatePage = () => {
+const Donate = () => {
   return (
     <Layout>
-      {/* Page Header */}
-      <section className="page-header">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="page-header-title">Donate</h1>
-          <p className="page-header-subtitle">Support our environmental conservation efforts</p>
-        </div>
-      </section>
-
-      {/* Donation Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="section-title mx-auto">Your Support Makes a Difference</h2>
-            <p className="text-lg mb-8">
-              Your contribution helps us protect the environment and improve the lives of local communities in Cameroon. 
-              Every donation, no matter the size, brings us one step closer to a sustainable future.
-            </p>
-            
-           
-              
-              {/* Bank Transfer Options */}
-              <div className="mb-8">
-                <h4 className="text-xl font-semibold mb-4">Bank Transfer Details</h4>
-                <Table>
-                  <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium">Bank:</TableCell>
-                      <TableCell>SOCIETE GENERALE CAMEROUN (SGC)</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Account Name:</TableCell>
-                      <TableCell>Ntarinkon Cooperative Credit Union Ltd. MFE</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">SWIFT Code:</TableCell>
-                      <TableCell>SGCMCMCX</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Bank Code:</TableCell>
-                      <TableCell>10003</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Branch Code:</TableCell>
-                      <TableCell>01600</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Beneficiary Account Number:</TableCell>
-                      <TableCell>16160006492</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Key:</TableCell>
-                      <TableCell>34</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">IBAN:</TableCell>
-                      <TableCell>34</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell className="font-medium">Currency:</TableCell>
-                      <TableCell>XAF</TableCell>
-                    </TableRow>
-                  </TableBody>
-                </Table>
-              </div>
-              
+      <div className="container mx-auto py-16 px-4">
+        <h1 className="text-4xl font-bold text-center mb-12">Support Our Mission</h1>
         
-              
-              <Button size="lg" className="w-full bg-eco-green hover:bg-eco-green-dark">
-                Donate Now
+        <div className="max-w-4xl mx-auto">
+          <p className="text-lg text-center mb-8">
+            Your donations help us continue our work for environmental conservation and community development in Cameroon.
+            Every contribution, no matter the size, makes a difference in our efforts.
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <DonationCard
+              amount="25"
+              title="Basic Supporter"
+              description="Provides basic supplies for one community workshop"
+            />
+            <DonationCard
+              amount="50"
+              title="Key Contributor"
+              description="Funds a week of environmental education in schools"
+              highlight={true}
+            />
+            <DonationCard
+              amount="100"
+              title="Major Donor"
+              description="Supports a complete reforestation project"
+            />
+          </div>
+          
+          <div className="bg-soft-purple p-6 rounded-lg mb-12">
+            <h2 className="text-2xl font-semibold mb-4 text-center">Other Ways to Support</h2>
+            <p className="text-center mb-4">
+              In addition to financial donations, you can support our work through:
+            </p>
+            <ul className="list-disc pl-6 mb-4 max-w-xl mx-auto">
+              <li className="mb-2">Volunteering your time and skills</li>
+              <li className="mb-2">Donating equipment or materials</li>
+              <li className="mb-2">Corporate partnerships and sponsorships</li>
+              <li>Spreading awareness about our mission</li>
+            </ul>
+            <div className="text-center mt-6">
+              <Button className="bg-primary-purple hover:bg-secondary-purple">
+                Contact Us to Learn More
               </Button>
             </div>
-            
-            <div className="text-left">
-              <h3 className="text-xl font-bold text-eco-green mb-4">Other Ways to Support Us</h3>
-              <ul className="list-disc pl-5 space-y-2 mb-8">
-                <li>Volunteer your time and skills</li>
-                <li>Spread awareness about our cause</li>
-                <li>Partner with us on conservation projects</li>
-                <li>Donate supplies and equipment</li>
-              </ul>
-              
-              <p className="italic">
-                For more information about how you can support our work, please contact us at{" "}
-                <a href="mailto:ecp.environment@gmail.com" className="text-eco-green-light hover:underline">
-                  ecp.environment@gmail.com
-                </a>
-              </p>
+          </div>
+          
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold mb-4">For Bank Transfers</h2>
+            <p className="mb-6">
+              For larger donations or bank transfers, please use the following details:
+            </p>
+            <div className="bg-white p-4 rounded-lg shadow-sm inline-block text-left">
+              <p><strong>Bank Name:</strong> Community Bank of Cameroon</p>
+              <p><strong>Account Name:</strong> ECO-ph Association</p>
+              <p><strong>Account Number:</strong> 0987654321</p>
+              <p><strong>SWIFT/BIC:</strong> CBCMCMXX</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </Layout>
   );
 };
 
-export default DonatePage;
+const DonationCard = ({ amount, title, description, highlight = false }) => {
+  return (
+    <Card className={`${highlight ? 'border-primary-purple' : ''}`}>
+      <CardHeader className={`${highlight ? 'bg-soft-purple' : ''}`}>
+        <CardTitle className="text-center">{title}</CardTitle>
+        <CardDescription className="text-center text-2xl font-bold">${amount}</CardDescription>
+      </CardHeader>
+      <CardContent className="text-center py-6">
+        <p>{description}</p>
+      </CardContent>
+      <CardFooter className="flex justify-center pb-6">
+        <Button className="bg-primary-purple hover:bg-secondary-purple">
+          Donate ${amount}
+        </Button>
+      </CardFooter>
+    </Card>
+  );
+};
 
+export default Donate;
