@@ -38,7 +38,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* COBALAM Project */}
-      <section className="py-16">
+      <section className="py-16 bg-soft-yellow">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Community-led Landscape Management (COBALAM)</h2>
@@ -100,97 +100,43 @@ const ProjectsPage = () => {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="section-subtitle">Mobilization for Landscape Management Board</h3>
-              <h4 className="font-semibold text-lg mb-2">Aim of the Project:</h4>
-              <ul className="list-disc pl-6 mb-4">
-                <li>
-                  Sensitize main actors in CBOs, CSOs, CIGs, and SMEs in the Santa
-                  Municipality with direct impacts on the mounts Bamboutos landscape
-                </li>
-              </ul>
-              
-              <h4 className="font-semibold text-lg mb-2">Results Obtained:</h4>
-              <ul className="list-disc pl-6 mb-6">
-                <li>
-                  Fifty-six from 56 different groups (37 male and 19 female) were sensitized on
-                  community-based landscape management and the necessity to create a Landscape
-                  Management Board (LMB) and a Local Landscape Management Commission
-                  (LLMC) for the Western Highlands of Cameroon (WHC).
-                </li>
-              </ul>
-              
-              <div className="overflow-x-auto mb-6">
-                <table className="min-w-full bg-white border border-eco-green">
-                  <thead className="bg-eco-green text-white">
-                    <tr>
-                      <th className="py-2 px-4 border-b">VILLAGE</th>
-                      <th className="py-2 px-4 border-b" colSpan={2}>PARTICIPANTS</th>
-                      <th className="py-2 px-4 border-b" colSpan={3}>AGE GROUPS</th>
-                    </tr>
-                    <tr>
-                      <th className="py-2 px-4 border-b"></th>
-                      <th className="py-2 px-4 border-b">Male</th>
-                      <th className="py-2 px-4 border-b">Female</th>
-                      <th className="py-2 px-4 border-b">18-35 years</th>
-                      <th className="py-2 px-4 border-b">36-60 years</th>
-                      <th className="py-2 px-4 border-b">&gt;60 years</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b">
-                      <td className="py-2 px-4">Mbei</td>
-                      <td className="py-2 px-4 text-center">12</td>
-                      <td className="py-2 px-4 text-center">9</td>
-                      <td className="py-2 px-4 text-center">9</td>
-                      <td className="py-2 px-4 text-center">12</td>
-                      <td className="py-2 px-4 text-center">0</td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="py-2 px-4">Awing</td>
-                      <td className="py-2 px-4 text-center">14</td>
-                      <td className="py-2 px-4 text-center">5</td>
-                      <td className="py-2 px-4 text-center">7</td>
-                      <td className="py-2 px-4 text-center">9</td>
-                      <td className="py-2 px-4 text-center">3</td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="py-2 px-4">Akum</td>
-                      <td className="py-2 px-4 text-center">11</td>
-                      <td className="py-2 px-4 text-center">5</td>
-                      <td className="py-2 px-4 text-center">6</td>
-                      <td className="py-2 px-4 text-center">8</td>
-                      <td className="py-2 px-4 text-center">2</td>
-                    </tr>
-                    <tr className="bg-eco-sage font-semibold">
-                      <td className="py-2 px-4">TOTAL</td>
-                      <td className="py-2 px-4 text-center">37</td>
-                      <td className="py-2 px-4 text-center">19</td>
-                      <td className="py-2 px-4 text-center">21</td>
-                      <td className="py-2 px-4 text-center">30</td>
-                      <td className="py-2 px-4 text-center">5</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-                <div className="rounded-lg overflow-hidden shadow-md">
-                  <img 
-                    src="/lovable-uploads/c0d17b08-525e-4d26-9f88-9a82c56d8eb0.png"
-                    alt="Group photo with banner about Community-led Landscape Management"
-                    className="w-full h-60 object-cover"
-                  />
-                  <p className="p-3 bg-eco-sage bg-opacity-20 text-center">Community members with COBALAM project banner</p>
-                </div>
-                <div className="rounded-lg overflow-hidden shadow-md">
-                  <img 
-                    src="/lovable-uploads/b79a70e2-ad3d-4d32-bf17-5ade4686d3ce.png"
-                    alt="Indoor training session with participants"
-                    className="w-full h-60 object-cover"
-                  />
-                  <p className="p-3 bg-eco-sage bg-opacity-20 text-center">Community training session</p>
-                </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
+              <h3 className="section-subtitle mb-2">
+                1.1.3 Facilitate the set up and management of a tree nursery farm (COBALAM_NWR_Tubah_Bbui_N1_2023) in Bambui village for the reforestation of degraded areas of identified sacred forests with the participation of traditional authorities in Bambui Fondom
+              </h3>
+              <p className="mb-2"><span className="font-semibold underline">Output:</span> set up a community-based tree nursery farm and produce 29,500 seedlings of eleven indigenous tree species (2023-2024)</p>
+              <p className="mb-3"><span className="font-semibold underline">Objective:</span> The general objective of the project was to facilitate the set up and management of a tree nursery farm for the production of tree seedlings. The seedlings shall be planted in degraded areas of identified Sacred forests as implementation of key conservation measure for the restoration of 215 ha of degraded areas of Sacred Forests and 340 ha of degraded areas of Water catchments in Bambui Village, Tubah Municipality in the North West Region of Cameroon.</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                <img 
+                  src="/lovable-uploads/bff758e7-4fee-4319-a8fb-dc106c8d6e17.png" 
+                  alt="Tree nursery farm setup 1" 
+                  className="w-full h-48 object-cover rounded-lg shadow"
+                />
+                <img 
+                  src="/lovable-uploads/a0e0b57f-ac6c-44f2-ad1f-a302385254e4.png" 
+                  alt="Tree nursery farm setup 2" 
+                  className="w-full h-48 object-cover rounded-lg shadow"
+                />
+                <img 
+                  src="/lovable-uploads/44aa0e8a-cd7b-4e31-add1-df681f10bb47.png" 
+                  alt="Tree nursery farm setup 3" 
+                  className="w-full h-48 object-cover rounded-lg shadow"
+                />
+                <img 
+                  src="/lovable-uploads/da0d5170-588e-48e5-96fc-710e83b510b0.png" 
+                  alt="Community gathering at the tree nursery" 
+                  className="w-full h-48 object-cover rounded-lg shadow"
+                />
+                <img 
+                  src="/lovable-uploads/19fd5b59-5114-47bb-8983-1d16421b125a.png" 
+                  alt="Indoor nursery workshop" 
+                  className="w-full h-48 object-cover rounded-lg shadow"
+                />
+                <img 
+                  src="/lovable-uploads/791a4cbb-2abe-4eb0-8a4e-90d203ea42c7.png" 
+                  alt="Group photo with nursery plants" 
+                  className="w-full h-48 object-cover rounded-lg shadow"
+                />
               </div>
             </div>
           </div>
@@ -198,7 +144,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* Bridge Rehabilitation Project */}
-      <section className="py-16 bg-eco-sage">
+      <section className="py-16 bg-soft-blue">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Bridge Rehabilitation Along IRAD-NTAMBANG Road</h2>
@@ -312,7 +258,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* Environment Projects */}
-      <section className="py-16">
+      <section className="py-16 bg-soft-green">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Environment</h2>
@@ -422,7 +368,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* Education Projects */}
-      <section className="py-16 bg-eco-sage">
+      <section className="py-16 bg-soft-pink">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Education and Capacity Building Programme</h2>
@@ -485,11 +431,10 @@ const ProjectsPage = () => {
       </section>
 
       {/* Our Recent Projects in Bambui Village */}
-      <section className="py-16">
+      <section className="py-16 bg-soft-yellow">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="section-title">Our Recent Projects in Bambui Village</h2>
-            {/* 1.1.3. Tree nursery farm setup */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
               <h3 className="section-subtitle mb-2">
                 1.1.3 Facilitate the set up and management of a tree nursery farm (COBALAM_NWR_Tubah_Bbui_N1_2023) in Bambui village for the reforestation of degraded areas of identified sacred forests with the participation of traditional authorities in Bambui Fondom
@@ -505,7 +450,6 @@ const ProjectsPage = () => {
               </div>
             </div>
             
-            {/* 1.1.4. Restoration of degraded areas */}
             <div className="bg-white p-8 rounded-lg shadow-lg mb-10">
               <h3 className="section-subtitle mb-2">
                 1.1.4 Restoration of degraded areas of identified sacred forests and water catchments in Bambui village
@@ -524,7 +468,6 @@ const ProjectsPage = () => {
               </div>
             </div>
             
-            {/* 1.1.5. Geo mapping of Sacred Forests */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="section-subtitle mb-2">1.1.5 Geo mapping of Sacred Forests and water catchments</h3>
               <p className="mb-2 font-medium underline">Objectives:</p>
