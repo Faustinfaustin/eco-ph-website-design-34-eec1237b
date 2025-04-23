@@ -47,7 +47,7 @@ const Donate = () => {
               <li>Spreading awareness about our mission</li>
             </ul>
             <div className="text-center mt-6">
-              <Button className="bg-primary-purple hover:bg-secondary-purple">
+              <Button className="bg-eco-green hover:bg-eco-green-light text-white">
                 Contact Us to Learn More
               </Button>
             </div>
@@ -73,7 +73,7 @@ const Donate = () => {
 
 const DonationCard = ({ amount, title, description, highlight = false }) => {
   return (
-    <Card className={`${highlight ? 'border-primary-purple' : ''}`}>
+    <Card className={`${highlight ? 'border-eco-green' : ''}`}>
       <CardHeader className={`${highlight ? 'bg-soft-purple' : ''}`}>
         <CardTitle className="text-center">{title}</CardTitle>
         <CardDescription className="text-center text-2xl font-bold">${amount}</CardDescription>
@@ -82,7 +82,7 @@ const DonationCard = ({ amount, title, description, highlight = false }) => {
         <p>{description}</p>
       </CardContent>
       <CardFooter className="flex justify-center pb-6">
-        <Button className="bg-primary-purple hover:bg-secondary-purple">
+        <Button className="bg-eco-green hover:bg-eco-green-light text-white">
           Donate ${amount}
         </Button>
       </CardFooter>

@@ -60,6 +60,10 @@ export default {
         "dark-purple": "hsl(var(--dark-purple))",
         "light-purple": "hsl(var(--light-purple))",
         "soft-purple": "hsl(var(--soft-purple))",
+        // ECO-ph custom colors
+        "eco-green": "#2a9d8f",
+        "eco-green-light": "#45b69f",
+        "eco-green-dark": "#1e7268",
       },
       borderRadius: {
         lg: "var(--radius)",
