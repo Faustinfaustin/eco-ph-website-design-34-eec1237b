@@ -1,4 +1,3 @@
-
 import Layout from '@/components/Layout';
 
 const TeamPage = () => {
@@ -32,7 +31,7 @@ const TeamPage = () => {
   return (
     <Layout>
       {/* Page Header */}
-      <section className="page-header">
+      <section className="page-header bg-eco-green-light py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="page-header-title">Our Team</h1>
           <p className="page-header-subtitle">Meet the dedicated people behind ECO-ph</p>

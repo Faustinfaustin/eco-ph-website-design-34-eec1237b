@@ -30,7 +30,7 @@ const ProjectsPage = () => {
   return (
     <Layout>
       {/* Page Header */}
-      <section className="page-header">
+      <section className="page-header bg-soft-green py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="page-header-title">Our Projects</h1>
           <p className="page-header-subtitle">Discover our work in environmental conservation and community development</p>

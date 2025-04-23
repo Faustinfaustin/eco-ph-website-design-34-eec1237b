@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import { Button } from '../components/ui/button';
@@ -7,7 +6,12 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 const Donate = () => {
   return (
     <Layout>
-      <div className="container mx-auto py-16 px-4">
+      <section className="page-header bg-soft-pink py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl font-bold">Support Our Mission</h1>
+        </div>
+      </section>
+      <div className="container mx-auto py-12 px-4">
         <h1 className="text-4xl font-bold text-center mb-12">Support Our Mission</h1>
         
         <div className="max-w-4xl mx-auto">

@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <Layout>
       {/* Page Header */}
-      <section className="page-header">
+      <section className="page-header bg-soft-purple py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="page-header-title">About Us</h1>
           <p className="page-header-subtitle">Our History, Mission, and Values</p>

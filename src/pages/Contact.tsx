@@ -1,4 +1,3 @@
-
 import Layout from '@/components/Layout';
 import ContactForm from '@/components/contact/ContactForm';
 import ContactInfo from '@/components/contact/ContactInfo';
@@ -7,7 +6,7 @@ const ContactPage = () => {
   return (
     <Layout>
       {/* Page Header */}
-      <section className="page-header">
+      <section className="page-header bg-soft-yellow py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="page-header-title">Contact Us</h1>
           <p className="page-header-subtitle">Get in touch with our team</p>
